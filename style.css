@@ -309,6 +309,9 @@ a {
   height: 5em;
   width: 300px;
   padding-left: 1em;
+  color: var(--clr-white);
+  font-family: var(--ff-main);
+  font-size: 2rem;
 }
 
 .container-form .form-1:nth-child(2){
@@ -483,16 +486,22 @@ footer {
 /* hover animation class*/
 .view {
   opacity: 0;
-}
-.img-container {
-  position: relative;
+  background-color: #050505;
+  color: #FFFFFF;
+  letter-spacing: 2.28571px;
+  font-weight: 700;
 }
 
-.view:hover {
-  cursor: pointer;
-  background-color: #000000;
-  mix-blend-mode: difference;
-  font-size: 2em;
+.underline {
+  border: none;
+}
+
+.underline:hover {
+  border-bottom: 2px solid var(--clr-green);
+}
+
+.img-container {
+  position: relative;
 }
 
 .img-container:hover > .view {
@@ -509,13 +518,11 @@ footer {
   }
 }/* ............... */
 
-/* hover animation class*/
-.img-container img:hover,
-.img-container img:focus-within{
+.img-container:hover{
   cursor: pointer;
   background-color: #000000;
-  mix-blend-mode: lighten;
-  opacity: 0.25;
+  mix-blend-mode: normal;
+  opacity: 0.75;
 }
 
 .underline:hover{
