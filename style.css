@@ -329,6 +329,18 @@ a {
 /* ......... */
 
 
+/* div class message */
+.message {
+  margin: auto;
+  
+  color: #FFFFFF;
+  width:max-content;
+  height: max-content;
+  font-size: 3rem;
+  padding-bottom: 1em;
+ word-spacing: .5em;
+}
+
 /* footer */
 footer {
   width: 100%;
