@@ -262,9 +262,10 @@ a {
 }
 
 .project-img {
+  max-height: 700px;
+  overflow: scroll;
   padding: 0 1em 0 1em ;
-  display: grid;
-  grid-column: 1fr;
+  display: flex;
   gap: 4em; 
 }
 
@@ -302,16 +303,19 @@ a {
 }
 
 .container-form input {
-  display: block;
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #757070;
-  height: 5em;
   width: 300px;
   padding-left: 1em;
+  padding-top: 2em;
   color: var(--clr-white);
   font-family: var(--ff-main);
   font-size: 2rem;
+}
+
+.container-form label {
+  display: block;
 }
 
 .container-form .form-1:nth-child(2){
