@@ -264,8 +264,11 @@ a {
 .project-img {
   max-height: 700px;
   overflow-y: scroll;
+  overflow-x: hidden;
   padding: 0 1em 0 1em ;
   display: flex;
+  flex-direction: column;
+  flex: 1;
   gap: 4em; 
 }
 
